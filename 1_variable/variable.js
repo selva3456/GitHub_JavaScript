@@ -32,7 +32,7 @@ console.log("this area is global scope")
     var d=10;//global scope variable
     let e=20;//block scope variable
     const f=30;//block scope variable
-    console.log("this is block scope area")
+console.log("this is block scope area")
      console.log(a,b,c)
      console.log(d,e,f)
 }
