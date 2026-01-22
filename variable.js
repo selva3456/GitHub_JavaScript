@@ -1,20 +1,20 @@
-// // var a
-// // console.log(a);
-// //  a=100;
-// // console.log(a);
+var a
+console.log(a);
+ a=100;
+console.log(a);
 
-// // let b=100
-// //     b=200
-// //     console.log(b);
+let b=100
+    b=200
+    console.log(b);
 
-// // const c=500
-// //     console.log(c);
+const c=500
+    console.log(c);
 
-// //     var n
-// //     console.log(n)
+    var n
+    console.log(n)
 
-// //     let f
-// //     console.log(f)
+    let f
+    console.log(f)
 
 // scope 
 // 1.global scope->outside the function or block
@@ -23,10 +23,10 @@
 
 
 var a=100;
-let b=200
-const c=300
+let b1=200
+const c1=300
 console.log("this area is global scope")
-    console.log(a,b,c)
+    console.log(a,b1,c1)
 
 {
     var d=10;//global scope variable
