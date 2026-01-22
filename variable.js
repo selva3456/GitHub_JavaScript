@@ -39,7 +39,7 @@ console.log("this area is global scope")
 
 //var will not follow block scope
      console.log(d)
-    //  console.log(e)//Uncaught ReferenceError: e is not defined
+    //  console.log(e)//Uncaught ReferenceError: e is not definedc
     //  console.log(f)//Uncaught ReferenceError: f is not defined
 abc()
 function abc(){
@@ -49,5 +49,6 @@ function abc(){
     console.log("this is function scope or local scope area")
     console.log(a,b,c)
     console.log(x,y,z)
+    console.log(x,y)
 }
 
