@@ -1,0 +1,88 @@
+          Data Types
+----------------------------
+i)it is used to define which kind of data is stored in the variable
+
+types of datatype
+     i)primitive
+    ii)Non-primitive
+
+primitive                                        non-primitive
+-----------------------------------------------------------------------------------
+number                                              Array
+boolean                                             Object
+String                                              function
+undefined
+null
+bigint
+
+number
+--------
+in number datatype we can store decimal as well as non decimal number
+
+<----note----> 
+
+typeof operator is used to know the data of any variable
+
+eg:
+    let a=10
+    let b=10.4
+
+    console.log(a+":"+typeof a)//10:number
+    console.log(b+":"+typeof b)//10:number
+
+    <---Number.parseInt---->
+        This method is to convert anything into integer value
+
+    <--boolean-->
+       it can take true/false
+
+    eg:
+      let isOdd=true
+
+      console.log(isOdd+":"+typeof isOdd)//true:boolean
+
+    <---String----->
+        String is a combination of single or multiple character in javaScript
+        we can enclose the String by '' (or) "" (or) ``
+    
+    eg:
+
+        let str1="good morning"//String
+        console.log(str1+":"+typeof str1)
+
+        let str2='Good night'//here single quote is also consider as string 
+                               there is no character
+        console.log(str2+":"+typeof str2)
+
+    <---undefined---->
+         variable declared but not initialized is called as undefined
+
+         typeof undefined is undefined
+
+    eg:
+        let salary
+        console.log(salary)
+        console.log(typeof salary)//undefined
+    
+    <-----Null--->
+
+    null is used to store as nothing in variable
+    
+    it behaves as value what we are storing in the variable
+   ** typeof null is Object **         
+
+   eg:
+      let a=null
+      console.log(a)//null
+      console.log(typeof a)//Object
+    <----bigint--->
+
+    it is used to store big integer value in any variable 
+
+    bigint number suffix will be night
+
+    eg:
+      let large=2n
+      console.log(typeof large)//bigint
+
+     
