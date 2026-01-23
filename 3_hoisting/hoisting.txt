@@ -1,0 +1,44 @@
+<-----variable hoisting--->
+
+     if we have declared any variable by using var keyword
+     and we are trying to access that before it declartion
+     output will be undefined
+     because that declartion part will be moving to the top
+     this is called as variable hoisting
+           (or)
+     moving the declartion top of the respective scope is known as
+     hoisting
+
+     types:
+
+        i)variable hoisting
+        ii)function hoisting
+
+    i)variable hoisting
+
+        1.by using var keyword
+               declaration go to top of the scope and value initialized as
+               undefined till actual initialization. Thats why if we try to 
+               access before actual initialization we will get undefined
+
+        2.by using let and const key word
+               declaration go to top of the scope and value will not be 
+               assigned till actual initialization.if we try to access 
+               before actual initialization we will get reference error due to TDZ
+
+     eg:
+         console.log(a) //undefined
+         var a=20;
+
+
+    ii)function hoisting
+          entire function goes to the top of the scope Thats why we call
+          the function before declaration still it will work
+          
+<--What is the diff b/w == and === -->
+  
+   == will check only the values
+   === it will check value with datatype
+
+   console.log("20" == 20)  //true
+   console.log("20" === 20) //false
