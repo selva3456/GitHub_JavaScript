@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 400px 400px 400px;
+}
+.sec1{
+    background-image: url(./pic01.jpg);
+}
+.sec1>article{
+    background-color: #7ac0d9;
+    height: 100%;   
+}
+.sec1>article:hover{
+    cursor: pointer;
+    transition: all 1s ;
+    background-color: transparent;
+}
+.sec2{
+     grid-column: 2 span;
+     background-image: url(./pic02.jpg);
+}
+.sec2>article{
+    background-color: #8d83bf;
+    height: 100%;   
+}
+.sec2>article:hover{
+    transition: all 1s ;
+    cursor: pointer;
+    background-color: transparent;
+}
+.sec3{
+    grid-column: span 2;
+    background-image: url(./pic03.jpg);
+}
+.sec3>article{
+    background-color: #e5928a;
+    height: 100%;   
+}
+.sec3>article:hover{
+    cursor: pointer;
+    transition: all 1s ;
+    background-color: transparent;
+}
+.sec4{
+    background-image: url(./pic04.jpg);
+}
+.sec4>article{
+    background-color: #dbb189;
+    height: 100%;   
+}
+.sec4>article:hover{
+    cursor: pointer;
+    transition: all 1s ;
+    background-color: transparent;
+}
+.sec5{
+    background-image: url(./pic05.jpg);
+}
+.sec5>article{
+    background-color: #8fa5de;
+    height: 100%;   
+}
+.sec5>article:hover{
+    cursor: pointer;
+    transition: all 1s ;
+    background-color: transparent;
+}
+.sec6{
+    background-image: url(./pic06.jpg);
+    grid-column: span 2;
+}
+.sec6>article{
+    background-color: #8ec2a6;
+    height: 100%;   
+}
+.sec6>article:hover{
+    transition: all 1s ;
+    cursor: pointer;
+    background-color: transparent;
+    transform: translate(2s);
+}
+section>article{
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    color: white;
+    padding: 90px 90px;
+}
+.sec6>article>hr{
+    margin-right: 450px;
+}
+
+.sec3>article>hr{
+    margin-right: 450px;
+}
+
+.sec2>article>hr{
+    margin-right: 450px;
+}
+
+.sec1>article>hr{
+    margin-right: 170px;
+}
+
+.sec4>article>hr{
+    margin-right: 170px;
+}
+
+.sec5>article>hr{
+    margin-right: 170px;
+}
