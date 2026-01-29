@@ -20,11 +20,11 @@ let obj1={
 console.log(obj1);
 
 
-// console.log(obj);
-// console.log(obj.name);
-// console.log(obj["age"]);
-// console.log(obj.role);
-// console.log(obj["1"]);
+console.log(obj);
+console.log(obj.name);
+console.log(obj["age"]);
+console.log(obj.role);
+console.log(obj["1"]);
 
 
 

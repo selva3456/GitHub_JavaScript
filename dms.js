@@ -2,18 +2,18 @@
 let b1=false
 let c1=Boolean()//NaN, undefined, 0, "", null, ()->empty boolean also false
                // the above data's o/p will be false 
-// let a=343
-// if(a%2==0){
-//     console.log(`${a} is even number`) 
-// }else(
-//     console.log(`${a} is odd number`)
-// )
-// let b=-9
-// if(b>=0){
-//     console.log(`${b} is positive number`);
-// }else{
-//     console.log(`${b} is negative number`);
-// }
+let a=343
+if(a%2==0){
+    console.log(`${a} is even number`) 
+}else(
+    console.log(`${a} is odd number`)
+)
+let b=-9
+if(b>=0){
+    console.log(`${b} is positive number`);
+}else{
+    console.log(`${b} is negative number`);
+}
 
 let amount=550
 
