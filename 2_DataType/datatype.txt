@@ -79,7 +79,7 @@ eg:
 
     it is used to store big integer value in any variable 
 
-    bigint number suffix will be night
+    bigint number suffix will be n
 
     eg:
       let large=2n
