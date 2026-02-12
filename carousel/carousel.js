@@ -10,7 +10,8 @@
 // console.log(input.type);
 // console.log(input.placeholder);
 
-let myimg=document.getElementsByTagName("img")[0]//here this imgtag index important 
+let myimg=document.getElementsByTagName("img")[0]//here this imgtag index important(manditory [0]) 
+//let myimg=document.querySelector("img")//[0] here no need of [0] 
 // console.log(myimg);
 // console.log(myimg.src);
 // console.log(myimg.alt);
