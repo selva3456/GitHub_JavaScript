@@ -10,7 +10,7 @@
 // console.log(input.type);
 // console.log(input.placeholder);
 
-let myimg=document.getElementsByTagName("img")[0]//here this imgtag index important(manditory [0]) 
+// let myimg=document.getElementsByTagName("img")[0]//here this imgtag index important(manditory [0]) 
 //let myimg=document.querySelector("img")//[0] here no need of [0] 
 // console.log(myimg);
 // console.log(myimg.src);
@@ -19,15 +19,15 @@ let index=0
 let storage=["./image/download.jfif","./image/download (1).jfif"
             ,"./image/download (2).jfif","./image/download (3).jfif",
             "./image/download (4).jfif"]
-    
+
 setInterval(() => {
-    
     if(index==storage.length){
         index=0
     }
     myimg.src=storage[index]
     index++;
 }, 2000);
-// console.log(myimg.src);
+console.log(myimg.src);
+
 
  
