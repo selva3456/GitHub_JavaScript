@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right,red,rgb(210, 6, 210) );
+        }
+        section>div{
+            background-color: black ;
+            padding: 2rem;
+            padding: 30px 30px;
+            text-align: center;
+            color: white;
+
+        }
+        section>div>button{
+            /* border: 2px solid white; */
+            background-color: greenyellow;
+            /* border: none; */
+            color: white;
+            padding: 10px 10px;
+            border: 1px solid lightcyan;
+        }
+        section>div>.no{
+            background-color: red;
+            position: absolute;
+            top: 55.5%;
+            left: 60%;
+            border: 1px solid lightcyan;
+            padding: 10px 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+
+        <div>
+            <h2>Will You Be My Valentine</h2>
+            <button>Yes</button>
+            <button class="no">No</button>
+        </div>
+    </section>
+    <script src="./valentine.js"></script>
+
+    
+</body>
+</html>
