@@ -53,11 +53,12 @@ let player2Total=document.querySelector(".player2>.total>h1")
 
 player2Dice2Btn.addEventListener("click",()=>{
     player2Total.innerHTML=`Total:${player2Dice1Value+player2Dice2Value}`
-   
-if(player1Total.value>player2Total.value){
-    console.log("Player 1 won the match");
-}
-else{
-    console.log("Player 2 won the match");
-}
+  
+    let opH1=document.querySelector(".player2>h1")
+if(player1Total.innerHTML>player2Total.innerHTML)
+    opH1.innerHTML="Player 1 Won The Match"
+
+else 
+    opH1.innerHTML="Player 2 won the match";
 })
+
