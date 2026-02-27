@@ -38,7 +38,7 @@ console.log(str7.charAt(23));//f
 console.log(str7.charAt("2"));//a
 console.log(str7.charAt(20));//t
 console.log(str7.slice(3,20))//m used to get par
-console.log(str7.slice(25,12))//empty //in slice order is very important
+console.log(str7.slice(25,12))//empty //in slice order is very important*****
 console.log(str7.substring(4,26))// used to get part of t
 console.log(str7.substring(60,2))// am used to get part of the string
 console.log(str7.substring(7))// ed to get part of the string
