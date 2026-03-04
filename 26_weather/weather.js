@@ -1,11 +1,12 @@
 let myInput=document.querySelector("input")
 let myBtn=document.querySelector("button")
-let myDiv=document.querySelector("div")
+let myDiv=document.querySelector("#output")
 
 
 console.log(myInput,myBtn,myDiv);
 
 myBtn.addEventListener("click",async ()=>{
+    myDiv.innerHTML=""
     let myKey="ba3b6d622ab0ab765c9d898d6e6ee6ca"
 let myfetch=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${myInput.value}&appid=${myKey}`)
 let data=await myfetch.json()
